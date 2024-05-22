@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/profile.css">
+    <title>Thông tin cá nhân</title>
+</head>
+<body>
+    <div id="orderDetails">
+        <h1>Thông tin cá nhân</h1>
+        <div id="customerInfo">
+            <h2>Thông tin khách hàng</h2>
+            <p>Tên khách hàng: <span id="customerName"></span></p>
+            <p>Email: <span id="email"></span></p>
+            <p>Id khách hàng: <span id="customerId"></span></p>
+            <button id="editBtn">Chỉnh sửa thông tin cá nhân</button>
+        </div>
+        <hr>
+        <div id="editForm" style="display: none;">
+            <h2>Chỉnh sửa thông tin</h2>
+            <div class="inp">
+                <label for="editCustomerName">Tên khách hàng</label>
+                <input type="text" id="editCustomerName">
+            </div>
+            <div class="inp">
+                <label for="editEmail">Email</label>
+                <input type="email" id="editEmail">
+            </div>
+            <button id="saveBtn">Lưu thay đổi</button>
+        </div>
+    </div>
+
+    <script type="module" src="./dist/src/checkout.js"></script>
+    <script type="module" src="./dist/src/login.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    var editBtn = document.getElementById('editBtn');
+    var editForm = document.getElementById('editForm');
+    var saveBtn = document.getElementById('saveBtn');
+    var editCustomerNameInput = document.getElementById('editCustomerName');
+    var editEmailInput = document.getElementById('editEmail');
+
+    // Lấy dữ liệu từ Local Storage và hiển thị trong form
+    var currentUser = localStorage.getItem('currentUser');
+    if (currentUser) {
+        var user = JSON.parse(currentUser);
+        editCustomerNameInput.value = user.TenKhachHang;
+        editEmailInput.value = user.Email;
+    }
+
+    // Xử lý khi click vào nút chỉnh sửa
+    editBtn.addEventListener('click', function () {
+        // Hiển thị form chỉnh sửa
+        editForm.style.display = 'block';
+    });
+
+    // Xử lý khi click vào nút lưu thay đổi
+    saveBtn.addEventListener('click', function () {
+        // Lưu thông tin đã chỉnh sửa vào Local Storage
+        user.TenKhachHang = editCustomerNameInput.value;
+        user.Email = editEmailInput.value;
+        localStorage.setItem('currentUser', JSON.stringify(user));
+
+        // Gửi yêu cầu cập nhật dữ liệu lên server
+        // Code gửi yêu cầu AJAX hoặc fetch đến server để cập nhật dữ liệu
+
+        // Ẩn form chỉnh sửa
+        editForm.style.display = 'none';
+        });
+    });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,902 @@
+{
+  "DanhMuc": [
+    {
+      "TenDanhMuc": "BỘ SƯU TẬP ÁO",
+      "Anh": "somi2.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "TenDanhMuc": "BỘ SƯU TẬP QUẦN",
+      "Anh": "danhmucquan.jpg",
+      "SoLuong": 4
+    },
+    {
+      "id": "3",
+      "TenDanhMuc": "SET NAM",
+      "Anh": "danhmucset.jpg",
+      "SoLuong": 4
+    },
+    {
+      "id": "4",
+      "TenDanhMuc": "BỘ SƯU TẬP BLAZER",
+      "Anh": "blazer2.jpg",
+      "SoLuong": 4
+    },
+    {
+      "id": "5",
+      "TenDanhMuc": "BỘ SƯU TẬP PHỤ KIỆN",
+      "Anh": "phukien1.jpg",
+      "SoLuong": 4
+    }
+  ],
+  "SanPham": [
+    {
+      "TenSanPham": "Sơ Mi Nhung (Xanh COBAN)",
+      "Anh": "somi01.jpg",
+      "Gia": 199000,
+      "MaDanhMuc": "1",
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam",
+      "tilegiamgia": 0,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "TenSanPham": "Sơ Mi Nhung (Xanh COBAN)",
+      "Anh": "somi01.jpg",
+      "Gia": 199000,
+      "GiaKhuyenMai": 200000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "3",
+      "TenSanPham": "Sơ Mi CAVAT",
+      "Anh": "somi2.jpg",
+      "Gia": 210000,
+      "GiaKhuyenMai": 200000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "4",
+      "TenSanPham": "Sơ Mi FEEL",
+      "Anh": "somi3.jpg",
+      "Gia": 175000,
+      "GiaKhuyenMai": 175000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "5",
+      "TenSanPham": "PARIS TEE",
+      "Anh": "thun2.jpg",
+      "Gia": 180000,
+      "GiaKhuyenMai": 180000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "6",
+      "TenSanPham": "JEAN 1155",
+      "Anh": "jean1.jpg",
+      "Gia": 195000,
+      "GiaKhuyenMai": 195000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "7",
+      "TenSanPham": "JEAN 1324",
+      "Anh": "jean2.jpg",
+      "Gia": 190000,
+      "GiaKhuyenMai": 190000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "8",
+      "TenSanPham": "BLAZER TANA",
+      "Anh": "blazer2.jpg",
+      "Gia": 250000,
+      "GiaKhuyenMai": 250000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 4,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "9",
+      "TenSanPham": "BLAZER BROWN",
+      "Anh": "blazer3.jpg",
+      "Gia": 320000,
+      "GiaKhuyenMai": 320000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 4,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "10",
+      "TenSanPham": "BLAZER TRIP",
+      "Anh": "blazer4.jpg",
+      "Gia": 320000,
+      "GiaKhuyenMai": 320000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 4,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "11",
+      "TenSanPham": "JACKET JIZI",
+      "Anh": "jacket1.jpg",
+      "Gia": 240000,
+      "GiaKhuyenMai": 240000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "12",
+      "TenSanPham": "BOBER V",
+      "Anh": "jacket2.jpg",
+      "Gia": 240000,
+      "GiaKhuyenMai": 240000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam",
+      "featured": true
+    },
+    {
+      "id": "13",
+      "TenSanPham": "BOMBER CROP",
+      "Anh": "jacket3.jpg",
+      "Gia": 220000,
+      "GiaKhuyenMai": 220000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "14",
+      "TenSanPham": "BOMBER ANDY",
+      "Anh": "jacket4.jpg",
+      "Gia": 250000,
+      "GiaKhuyenMai": 250000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "15",
+      "TenSanPham": "NHẪNSAMO",
+      "Anh": "phukien1.jpg",
+      "Gia": 50000,
+      "GiaKhuyenMai": 50000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "16",
+      "TenSanPham": "CHAIN NGỌC",
+      "Anh": "phukien2.jpg",
+      "Gia": 70000,
+      "GiaKhuyenMai": 70000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "17",
+      "TenSanPham": "THẮT LƯNG DACHO",
+      "Anh": "phukien3.jpg",
+      "Gia": 95000,
+      "GiaKhuyenMai": 95000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "18",
+      "TenSanPham": "SET HOODIE RYG",
+      "Anh": "set1.jpg",
+      "Gia": 365000,
+      "GiaKhuyenMai": 365000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "19",
+      "TenSanPham": "SET CHAM ĐỎ",
+      "Anh": "set2.jpg",
+      "Gia": 350000,
+      "GiaKhuyenMai": 350000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "20",
+      "TenSanPham": "SET DA",
+      "Anh": "set3.jpg",
+      "Gia": 480000,
+      "GiaKhuyenMai": 480000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "21",
+      "TenSanPham": "SET 24 WASH",
+      "Anh": "set4.jpg",
+      "Gia": 385000,
+      "GiaKhuyenMai": 385000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam",
+      "featured": true
+    },
+    {
+      "id": "22",
+      "TenSanPham": "TÚI 2B",
+      "Anh": "balo1.jpg",
+      "Gia": 220000,
+      "GiaKhuyenMai": 220000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "23",
+      "TenSanPham": "TÚI DA VUÔNG",
+      "Anh": "balo2.jpg",
+      "Gia": 180000,
+      "GiaKhuyenMai": 180000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "24",
+      "TenSanPham": "TÚI HYGGE",
+      "Anh": "balo3.jpg",
+      "Gia": 175000,
+      "GiaKhuyenMai": 175000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 5,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "25",
+      "TenSanPham": "LUCKY WASH",
+      "Anh": "thun3.jpg",
+      "Gia": 210000,
+      "GiaKhuyenMai": 210000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam",
+      "featured": true
+    },
+    {
+      "id": "26",
+      "TenSanPham": "VEN TEE",
+      "Anh": "thun4.jpg",
+      "Gia": 185000,
+      "GiaKhuyenMai": 185000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "27",
+      "TenSanPham": "JEAN 1281",
+      "Anh": "jean3.jpg",
+      "Gia": 230000,
+      "GiaKhuyenMai": 230000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "28",
+      "TenSanPham": "JEAN 1092",
+      "Anh": "jean4.jpg",
+      "Gia": 195000,
+      "GiaKhuyenMai": 195000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "29",
+      "TenSanPham": "BLAZER ĐEN",
+      "Anh": "blazer1.jpg",
+      "Gia": 310000,
+      "GiaKhuyenMai": 310000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 4,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "30",
+      "TenSanPham": "88 TEE",
+      "Anh": "thun5.jpg",
+      "Gia": 140000,
+      "GiaKhuyenMai": 140000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 1,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    }
+  ],
+  "SanPhamNoiBat": [
+    {
+      "id": "23",
+      "TenSanPham": "TÚI DA VUÔNG",
+      "Anh": "balo2.jpg",
+      "Gia": 180000,
+      "GiaKhuyenMai": 180000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 8,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "24",
+      "TenSanPham": "TÚI HYGGE",
+      "Anh": "balo3.jpg",
+      "Gia": 175000,
+      "GiaKhuyenMai": 175000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 8,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "25",
+      "TenSanPham": "LUCKY WASH",
+      "Anh": "thun3.jpg",
+      "Gia": 210000,
+      "GiaKhuyenMai": 210000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "26",
+      "TenSanPham": "VEN TEE",
+      "Anh": "thun4.jpg",
+      "Gia": 185000,
+      "GiaKhuyenMai": 185000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "27",
+      "TenSanPham": "JEAN 1281",
+      "Anh": "jean3.jpg",
+      "Gia": 230000,
+      "GiaKhuyenMai": 230000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "28",
+      "TenSanPham": "JEAN 1092",
+      "Anh": "jean4.jpg",
+      "Gia": 195000,
+      "GiaKhuyenMai": 195000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 3,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "29",
+      "TenSanPham": "BLAZER ĐEN",
+      "Anh": "blazer1.jpg",
+      "Gia": 310000,
+      "GiaKhuyenMai": 310000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 4,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    {
+      "id": "30",
+      "TenSanPham": "88 TEE",
+      "Anh": "thun5.jpg",
+      "Gia": 140000,
+      "GiaKhuyenMai": 140000,
+      "NgayNhap": "12/10/2023",
+      "MaDanhMuc": 2,
+      "LuotXem": "",
+      "SoLuong": 3,
+      "MoTa": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    }
+  ],
+  "KhachHang": [
+    {
+      "id": "1",
+      "TenKhachHang": "thaison",
+      "HinhAnh": "son1.jpg",
+      "MatKhau": "123",
+      "Email": "thaison291004@gmail.com",
+      "SDT": "0366081437"
+    },
+    {
+      "id": "2",
+      "TenKhachHang": "aiphung",
+      "HinhAnh": "son1.jpg",
+      "MatKhau": "123",
+      "Email": "aiphung261004@gmail.con",
+      "SDT": "012345678"
+    },
+    {
+      "TenKhachHang": "nguyenthaison",
+      "MatKhau": "12345678",
+      "SDT": "0123456789",
+      "Email": "thaison291004@gmail.com",
+      "id": "9cIfxYe"
+    },
+    {
+      "TenKhachHang": "admin",
+      "MatKhau": "12345678",
+      "SDT": "0123456789",
+      "Email": "thaison291004@gmail.com",
+      "id": "8Ia1NXd"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "TenKhachHang": "",
+      "HinhAnh": "",
+      "MatKhau": "",
+      "Email": "",
+      "isAdmin": 1
+    },
+    {
+      "id": "3310",
+      "TenKhachHang": "son",
+      "Email": "thaison201004@gmail.com",
+      "MatKhau": "123",
+      "isAdmin": 1
+    },
+    {
+      "id": "3218",
+      "TenKhachHang": "sonKun",
+      "Email": "thaison2010044@gmail.com",
+      "MatKhau": "123456"
+    },
+    {
+      "id": "2817",
+      "TenKhachHang": "bao",
+      "Email": "baolo@gmail.com",
+      "MatKhau": "123456"
+    }
+  ],
+  "GioHang": [
+    {
+      "id": "1",
+      "TenKhachHang": "",
+      "DiaChi": "",
+      "SoDienThoai": "",
+      "TongTien": ""
+    },
+    {
+      "id": "83c3",
+      "username": "Trần Thị Thanh",
+      "address": "Giai Sơn, An Mỹ, Tuy An, Phú Yên",
+      "phone": "+0366081437",
+      "total": 1.99
+    },
+    {
+      "id": "4713",
+      "username": "thaison ",
+      "address": "phú hòa ",
+      "phone": "+0366081437  ",
+      "total": 199
+    },
+    {
+      "id": "a1a1",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 199
+    },
+    {
+      "id": "c870",
+      "username": "nguyenthaison ",
+      "address": "phú hòa ",
+      "phone": "+0366081437 ",
+      "total": 2.037
+    },
+    {
+      "id": "817d",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 2.037
+    },
+    {
+      "id": "a104",
+      "username": "thaison ",
+      "address": "Phú hòa, An Mỹ, Tuy An, Phú Yên  ",
+      "phone": "+0366081437  ",
+      "total": 792
+    },
+    {
+      "id": "24fb",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 792
+    },
+    {
+      "id": "ea4f",
+      "username": "thaison ",
+      "address": "phú hòa  ",
+      "phone": "+0366081437 ",
+      "total": 3.517
+    },
+    {
+      "id": "cff1",
+      "username": "sonkun ",
+      "address": "123",
+      "phone": "123",
+      "total": 1.4
+    },
+    {
+      "id": "0c1b",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 1.4
+    },
+    {
+      "id": "f7c4",
+      "username": "thaison ",
+      "address": "Giai Sơn, An Mỹ, Tuy An, Phú Yên ",
+      "phone": "+0366081437 ",
+      "total": 1.592
+    },
+    {
+      "id": "8ad3",
+      "username": "thaison ",
+      "address": "phú hòa ",
+      "phone": "+0366081437 ",
+      "total": 565
+    },
+    {
+      "id": "24d5",
+      "username": "thaison2 ",
+      "address": "Phú hòa, An Mỹ, Tuy An, Phú Yên  ",
+      "phone": "+0366081437 ",
+      "total": 2.149
+    },
+    {
+      "id": "7157",
+      "username": "admin ",
+      "address": "Phú hòa, An Mỹ, Tuy An, Phú Yên   ",
+      "phone": "+0366081437 ",
+      "total": 2.925
+    },
+    {
+      "id": "3109",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 2.925
+    },
+    {
+      "id": "e5e8",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 199
+    },
+    {
+      "id": "9eee",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 1.05
+    },
+    {
+      "id": "d1bf",
+      "username": "nguyenthaison ",
+      "address": "phú hòa ",
+      "phone": "+0366081437 ",
+      "total": 1.14
+    },
+    {
+      "id": "d2f7",
+      "username": "",
+      "address": "",
+      "phone": "",
+      "total": 1.46
+    },
+    {
+      "id": "3960",
+      "username": "sơn",
+      "address": "phú hòa ",
+      "phone": "123",
+      "total": 199
+    },
+    {
+      "id": "39e2",
+      "username": "thaison ",
+      "address": "phú hòa ",
+      "phone": "+0366081437 ",
+      "total": 1.43
+    },
+    {
+      "id": "8819",
+      "username": "thaison ",
+      "address": "Phú hòa, An Mỹ, Tuy An, Phú Yên   ",
+      "phone": "+0366081437   ",
+      "total": 1.194
+    },
+    {
+      "id": "01ae",
+      "username": "jgjkjgkhk",
+      "address": "phú hòa ",
+      "phone": "+0366081437   ",
+      "total": 1.194
+    }
+  ],
+  "ThongTinGioHang": [
+    {
+      "id": "1",
+      "cart_id": "1",
+      "product_id": "1",
+      "price": "120",
+      "quantity": 12
+    },
+    {
+      "0": {
+        "cart_id": "83c3",
+        "quantity": 10
+      },
+      "id": "9da4"
+    },
+    {
+      "0": {
+        "cart_id": "a1a1",
+        "quantity": 1
+      },
+      "id": "6344"
+    },
+    {
+      "0": {
+        "cart_id": "817d",
+        "quantity": 3
+      },
+      "1": {
+        "cart_id": "817d",
+        "quantity": 3
+      },
+      "2": {
+        "cart_id": "817d",
+        "quantity": 3
+      },
+      "id": "b556"
+    },
+    {
+      "0": {
+        "cart_id": "24fb",
+        "quantity": 3
+      },
+      "1": {
+        "cart_id": "24fb",
+        "quantity": 1
+      },
+      "id": "d915"
+    },
+    {
+      "0": {
+        "cart_id": "ea4f",
+        "quantity": 3
+      },
+      "1": {
+        "cart_id": "ea4f",
+        "quantity": 3
+      },
+      "2": {
+        "cart_id": "ea4f",
+        "quantity": 10
+      },
+      "id": "472b"
+    },
+    {
+      "0": {
+        "cart_id": "0c1b",
+        "quantity": 4
+      },
+      "id": "ef42"
+    },
+    {
+      "0": {
+        "cart_id": "f7c4",
+        "quantity": 8
+      },
+      "id": "6a29"
+    },
+    {
+      "0": {
+        "cart_id": "8ad3",
+        "quantity": 1
+      },
+      "1": {
+        "cart_id": "8ad3",
+        "quantity": 1
+      },
+      "2": {
+        "cart_id": "8ad3",
+        "quantity": 1
+      },
+      "id": "f036"
+    },
+    {
+      "0": {
+        "cart_id": "3109",
+        "quantity": 15
+      },
+      "id": "5db4"
+    },
+    {
+      "0": {
+        "cart_id": "e5e8",
+        "quantity": 1
+      },
+      "id": "7983"
+    },
+    {
+      "0": {
+        "cart_id": "9eee",
+        "quantity": 5
+      },
+      "id": "3fd2"
+    },
+    {
+      "0": {
+        "cart_id": "d2f7",
+        "quantity": 6
+      },
+      "1": {
+        "cart_id": "d2f7",
+        "quantity": 1
+      },
+      "id": "e473"
+    },
+    {
+      "0": {
+        "cart_id": "3960",
+        "quantity": 1
+      },
+      "id": "027a"
+    },
+    {
+      "0": {
+        "cart_id": "39e2",
+        "quantity": 5
+      },
+      "1": {
+        "cart_id": "39e2",
+        "quantity": 1
+      },
+      "2": {
+        "cart_id": "39e2",
+        "quantity": 1
+      },
+      "id": "b846"
+    },
+    {
+      "0": {
+        "cart_id": "01ae",
+        "quantity": 6
+      },
+      "id": "ec18"
+    }
+  ],
+  "ChiTietDonHang": {
+    "id_pr": 1,
+    "product_name": "Sơ Mi Dạ",
+    "product_id": 1,
+    "unit_price": 210000,
+    "created_date": "2024-02-27",
+    "created_date_giao": "2024-02-29"
+  },
+  "DonHang": {
+    "customer_id": "",
+    "customer_name": "thái sơn nguyễn",
+    "customer_address": "123",
+    "customer_email": "thaison291004@gmail.com",
+    "customer_phone_number": "+0366081437",
+    "created_date": "2024-02-27",
+    "status": "cho duyệt"
+  },
+  "BinhLuan": {
+    "id": "",
+    "MaSanPham": "",
+    "MaKhachHang": "",
+    "NoiDung": "",
+    "NgayBinhLuan": ""
+  }
+}

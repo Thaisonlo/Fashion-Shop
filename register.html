@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form id="registerForm">
+            <h1>Đăng ký</h1>
+            <div class="input-box">
+                <input type="text" id="usernameInput" placeholder="Tên đăng nhập" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="email" id="emailInput" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="passwordInput" placeholder="Mật khẩu" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="confirmPasswordInput" placeholder="Nhập lại mật khẩu" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <label>Hình ảnh</label>
+            <input type="file" id="avatarInput" accept="image/*">
+
+            <button type="submit" class="btn">Đăng ký</button>
+            <div class="register-link">
+                <p >Bạn đã có tài khoản? <a href="./login.html">Đăng nhập</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<script type="module" src="./dist/src/register.js"></script>
